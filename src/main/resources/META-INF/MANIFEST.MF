@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+TweakOrder: 0
+MixinConfigs: mixins.moneymod.json
+FMLCorePluginContainsFMLMod: true
+TweakClass: org.spongepowered.asm.launch.MixinTweaker
+ForceLoadAsMod: true
+FMLCorePlugin: wtf.moneymod.client.mixin.Loader
+

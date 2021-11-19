@@ -1,0 +1,160 @@
+{
+  "mappings": {
+    "wtf/moneymod/client/mixin/mixins/MixinEntityRenderer": {
+      "drawNameplate": "Lnet/minecraft/client/renderer/EntityRenderer;func_189692_a(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;FFFIFFZZ)V"
+    },
+    "wtf/moneymod/client/mixin/mixins/ducks/IMinecraft": {
+      "rightClickDelayTimer": "field_71467_ac:I"
+    },
+    "wtf/moneymod/client/mixin/mixins/MixinNetworkManager": {
+      "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+      "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+    },
+    "wtf/moneymod/client/mixin/mixins/ducks/AccessorRenderManager": {
+      "renderPosX": "field_78725_b:D",
+      "renderPosY": "field_78726_c:D",
+      "renderPosZ": "field_78723_d:D"
+    },
+    "wtf/moneymod/client/mixin/mixins/MixinEntityPlayerSP": {
+      "move": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70091_d(Lnet/minecraft/entity/MoverType;DDD)V",
+      "Lnet/minecraft/client/entity/AbstractClientPlayer;move(Lnet/minecraft/entity/MoverType;DDD)V": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_70091_d(Lnet/minecraft/entity/MoverType;DDD)V",
+      "onUpdateWalkingPlayer": "Lnet/minecraft/client/entity/EntityPlayerSP;func_175161_p()V"
+    },
+    "wtf/moneymod/client/mixin/mixins/MixinPlayerControllerMP": {
+      "clickBlock": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_180511_b(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z"
+    },
+    "wtf/moneymod/client/mixin/mixins/MixinTimer": {
+      "net/minecraft/util/Timer.elapsedPartialTicks:F": "Lnet/minecraft/util/Timer;field_194148_c:F",
+      "updateTimer": "Lnet/minecraft/util/Timer;func_74275_a()V"
+    },
+    "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketPlayer": {
+      "onGround": "field_149474_g:Z",
+      "x": "field_149479_a:D",
+      "y": "field_149477_b:D",
+      "z": "field_149478_c:D",
+      "pitch": "field_149473_f:F",
+      "yaw": "field_149476_e:F"
+    },
+    "wtf/moneymod/client/mixin/mixins/MixinGuiNewChat": {
+      "drawChat": "Lnet/minecraft/client/gui/GuiNewChat;func_146230_a(I)V",
+      "setChatLine": "Lnet/minecraft/client/gui/GuiNewChat;func_146237_a(Lnet/minecraft/util/text/ITextComponent;IIZ)V",
+      "Lnet/minecraft/client/renderer/GlStateManager;pushMatrix()V": "Lnet/minecraft/client/renderer/GlStateManager;func_179094_E()V",
+      "getChatComponent": "Lnet/minecraft/client/gui/GuiNewChat;func_146236_a(II)Lnet/minecraft/util/text/ITextComponent;",
+      "printChatMessageWithOptionalDeletion": "Lnet/minecraft/client/gui/GuiNewChat;func_146234_a(Lnet/minecraft/util/text/ITextComponent;I)V",
+      "Lnet/minecraft/client/gui/FontRenderer;drawStringWithShadow(Ljava/lang/String;FFI)I": "Lnet/minecraft/client/gui/FontRenderer;func_175063_a(Ljava/lang/String;FFI)I"
+    },
+    "wtf/moneymod/client/mixin/mixins/MixinMinecraft": {
+      "shutdown()V": "Lnet/minecraft/client/Minecraft;func_71400_g()V"
+    },
+    "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketUseEntity": {
+      "action": "field_149566_b:Lnet/minecraft/network/play/client/CPacketUseEntity$Action;",
+      "entityId": "field_149567_a:I"
+    }
+  },
+  "data": {
+    "notch": {
+      "wtf/moneymod/client/mixin/mixins/MixinEntityRenderer": {
+        "drawNameplate": "Lbuq;a(Lbip;Ljava/lang/String;FFFIFFZZ)V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/IMinecraft": {
+        "rightClickDelayTimer": "as:I"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lgw;a(Lht;)V",
+        "channelRead0": "Lgw;a(Lio/netty/channel/ChannelHandlerContext;Lht;)V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/AccessorRenderManager": {
+        "renderPosX": "o:D",
+        "renderPosY": "p:D",
+        "renderPosZ": "q:D"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinEntityPlayerSP": {
+        "move": "Lbud;a(Lvv;DDD)V",
+        "Lnet/minecraft/client/entity/AbstractClientPlayer;move(Lnet/minecraft/entity/MoverType;DDD)V": "Lbua;a(Lvv;DDD)V",
+        "onUpdateWalkingPlayer": "Lbud;N()V"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinPlayerControllerMP": {
+        "clickBlock": "Lbsa;a(Let;Lfa;)Z"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinTimer": {
+        "net/minecraft/util/Timer.elapsedPartialTicks:F": "Lbih;c:F",
+        "updateTimer": "Lbih;a()V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketPlayer": {
+        "onGround": "f:Z",
+        "x": "a:D",
+        "y": "b:D",
+        "z": "c:D",
+        "pitch": "e:F",
+        "yaw": "d:F"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinGuiNewChat": {
+        "drawChat": "Lbjb;a(I)V",
+        "setChatLine": "Lbjb;a(Lhh;IIZ)V",
+        "Lnet/minecraft/client/renderer/GlStateManager;pushMatrix()V": "Lbus;G()V",
+        "getChatComponent": "Lbjb;a(II)Lhh;",
+        "printChatMessageWithOptionalDeletion": "Lbjb;a(Lhh;I)V",
+        "Lnet/minecraft/client/gui/FontRenderer;drawStringWithShadow(Ljava/lang/String;FFI)I": "Lbip;a(Ljava/lang/String;FFI)I"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinMinecraft": {
+        "shutdown()V": "Lbib;n()V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketUseEntity": {
+        "action": "b:Lli$a;",
+        "entityId": "a:I"
+      }
+    },
+    "searge": {
+      "wtf/moneymod/client/mixin/mixins/MixinEntityRenderer": {
+        "drawNameplate": "Lnet/minecraft/client/renderer/EntityRenderer;func_189692_a(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;FFFIFFZZ)V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/IMinecraft": {
+        "rightClickDelayTimer": "field_71467_ac:I"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinNetworkManager": {
+        "sendPacket(Lnet/minecraft/network/Packet;)V": "Lnet/minecraft/network/NetworkManager;func_179290_a(Lnet/minecraft/network/Packet;)V",
+        "channelRead0": "Lnet/minecraft/network/NetworkManager;channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;)V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/AccessorRenderManager": {
+        "renderPosX": "field_78725_b:D",
+        "renderPosY": "field_78726_c:D",
+        "renderPosZ": "field_78723_d:D"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinEntityPlayerSP": {
+        "move": "Lnet/minecraft/client/entity/EntityPlayerSP;func_70091_d(Lnet/minecraft/entity/MoverType;DDD)V",
+        "Lnet/minecraft/client/entity/AbstractClientPlayer;move(Lnet/minecraft/entity/MoverType;DDD)V": "Lnet/minecraft/client/entity/AbstractClientPlayer;func_70091_d(Lnet/minecraft/entity/MoverType;DDD)V",
+        "onUpdateWalkingPlayer": "Lnet/minecraft/client/entity/EntityPlayerSP;func_175161_p()V"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinPlayerControllerMP": {
+        "clickBlock": "Lnet/minecraft/client/multiplayer/PlayerControllerMP;func_180511_b(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinTimer": {
+        "net/minecraft/util/Timer.elapsedPartialTicks:F": "Lnet/minecraft/util/Timer;field_194148_c:F",
+        "updateTimer": "Lnet/minecraft/util/Timer;func_74275_a()V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketPlayer": {
+        "onGround": "field_149474_g:Z",
+        "x": "field_149479_a:D",
+        "y": "field_149477_b:D",
+        "z": "field_149478_c:D",
+        "pitch": "field_149473_f:F",
+        "yaw": "field_149476_e:F"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinGuiNewChat": {
+        "drawChat": "Lnet/minecraft/client/gui/GuiNewChat;func_146230_a(I)V",
+        "setChatLine": "Lnet/minecraft/client/gui/GuiNewChat;func_146237_a(Lnet/minecraft/util/text/ITextComponent;IIZ)V",
+        "Lnet/minecraft/client/renderer/GlStateManager;pushMatrix()V": "Lnet/minecraft/client/renderer/GlStateManager;func_179094_E()V",
+        "getChatComponent": "Lnet/minecraft/client/gui/GuiNewChat;func_146236_a(II)Lnet/minecraft/util/text/ITextComponent;",
+        "printChatMessageWithOptionalDeletion": "Lnet/minecraft/client/gui/GuiNewChat;func_146234_a(Lnet/minecraft/util/text/ITextComponent;I)V",
+        "Lnet/minecraft/client/gui/FontRenderer;drawStringWithShadow(Ljava/lang/String;FFI)I": "Lnet/minecraft/client/gui/FontRenderer;func_175063_a(Ljava/lang/String;FFI)I"
+      },
+      "wtf/moneymod/client/mixin/mixins/MixinMinecraft": {
+        "shutdown()V": "Lnet/minecraft/client/Minecraft;func_71400_g()V"
+      },
+      "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketUseEntity": {
+        "action": "field_149566_b:Lnet/minecraft/network/play/client/CPacketUseEntity$Action;",
+        "entityId": "field_149567_a:I"
+      }
+    }
+  }
+}

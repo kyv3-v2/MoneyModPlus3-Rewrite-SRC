@@ -1,0 +1,5399 @@
+{
+  "club/minnced/discord/rpc/DiscordEventHandlers$OnGameUpdate": {
+    "name": "club/minnced/discord/rpc/DiscordEventHandlers$OnGameUpdate",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "club/minnced/discord/rpc/DiscordEventHandlers$OnJoinRequest": {
+    "name": "club/minnced/discord/rpc/DiscordEventHandlers$OnJoinRequest",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "club/minnced/discord/rpc/DiscordEventHandlers$OnReady": {
+    "name": "club/minnced/discord/rpc/DiscordEventHandlers$OnReady",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "club/minnced/discord/rpc/DiscordEventHandlers$OnStatus": {
+    "name": "club/minnced/discord/rpc/DiscordEventHandlers$OnStatus",
+    "interfaces": [
+      "com/sun/jna/Callback"
+    ]
+  },
+  "club/minnced/discord/rpc/DiscordRPC": {
+    "name": "club/minnced/discord/rpc/DiscordRPC",
+    "interfaces": [
+      "com/sun/jna/Library"
+    ]
+  },
+  "javassist/ByteArrayClassPath": {
+    "name": "javassist/ByteArrayClassPath",
+    "interfaces": [
+      "javassist/ClassPath"
+    ]
+  },
+  "javassist/ClassClassPath": {
+    "name": "javassist/ClassClassPath",
+    "interfaces": [
+      "javassist/ClassPath"
+    ]
+  },
+  "javassist/ClassPool$1": {
+    "name": "javassist/ClassPool$1",
+    "interfaces": [
+      "java/security/PrivilegedExceptionAction"
+    ]
+  },
+  "javassist/CodeConverter$DefaultArrayAccessReplacementMethodNames": {
+    "name": "javassist/CodeConverter$DefaultArrayAccessReplacementMethodNames",
+    "interfaces": [
+      "javassist/CodeConverter$ArrayAccessReplacementMethodNames"
+    ]
+  },
+  "javassist/DirClassPath": {
+    "name": "javassist/DirClassPath",
+    "interfaces": [
+      "javassist/ClassPath"
+    ]
+  },
+  "javassist/JarClassPath": {
+    "name": "javassist/JarClassPath",
+    "interfaces": [
+      "javassist/ClassPath"
+    ]
+  },
+  "javassist/JarDirClassPath": {
+    "name": "javassist/JarDirClassPath",
+    "interfaces": [
+      "javassist/ClassPath"
+    ]
+  },
+  "javassist/JarDirClassPath$1": {
+    "name": "javassist/JarDirClassPath$1",
+    "interfaces": [
+      "java/io/FilenameFilter"
+    ]
+  },
+  "javassist/LoaderClassPath": {
+    "name": "javassist/LoaderClassPath",
+    "interfaces": [
+      "javassist/ClassPath"
+    ]
+  },
+  "javassist/SerialVersionUID$1": {
+    "name": "javassist/SerialVersionUID$1",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "javassist/SerialVersionUID$2": {
+    "name": "javassist/SerialVersionUID$2",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "javassist/SerialVersionUID$3": {
+    "name": "javassist/SerialVersionUID$3",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "javassist/URLClassPath": {
+    "name": "javassist/URLClassPath",
+    "interfaces": [
+      "javassist/ClassPath"
+    ]
+  },
+  "javassist/bytecode/ByteVector": {
+    "name": "javassist/bytecode/ByteVector",
+    "interfaces": [
+      "java/lang/Cloneable"
+    ]
+  },
+  "javassist/bytecode/Bytecode": {
+    "name": "javassist/bytecode/Bytecode",
+    "interfaces": [
+      "java/lang/Cloneable",
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/CodeAnalyzer": {
+    "name": "javassist/bytecode/CodeAnalyzer",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/CodeAttribute": {
+    "name": "javassist/bytecode/CodeAttribute",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/CodeIterator": {
+    "name": "javassist/bytecode/CodeIterator",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/ExceptionTable": {
+    "name": "javassist/bytecode/ExceptionTable",
+    "interfaces": [
+      "java/lang/Cloneable"
+    ]
+  },
+  "javassist/bytecode/InstructionPrinter": {
+    "name": "javassist/bytecode/InstructionPrinter",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/analysis/Analyzer": {
+    "name": "javassist/bytecode/analysis/Analyzer",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/analysis/Executor": {
+    "name": "javassist/bytecode/analysis/Executor",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/analysis/SubroutineScanner": {
+    "name": "javassist/bytecode/analysis/SubroutineScanner",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/analysis/Util": {
+    "name": "javassist/bytecode/analysis/Util",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/bytecode/annotation/AnnotationImpl": {
+    "name": "javassist/bytecode/annotation/AnnotationImpl",
+    "interfaces": [
+      "java/lang/reflect/InvocationHandler"
+    ]
+  },
+  "javassist/bytecode/stackmap/BasicBlock$Mark": {
+    "name": "javassist/bytecode/stackmap/BasicBlock$Mark",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "javassist/bytecode/stackmap/Tracer": {
+    "name": "javassist/bytecode/stackmap/Tracer",
+    "interfaces": [
+      "javassist/bytecode/stackmap/TypeTag"
+    ]
+  },
+  "javassist/compiler/CodeGen": {
+    "name": "javassist/compiler/CodeGen",
+    "interfaces": [
+      "javassist/bytecode/Opcode",
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/Javac$1": {
+    "name": "javassist/compiler/Javac$1",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/compiler/Javac$2": {
+    "name": "javassist/compiler/Javac$2",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/compiler/Javac$3": {
+    "name": "javassist/compiler/Javac$3",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/compiler/Lex": {
+    "name": "javassist/compiler/Lex",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/MemberResolver": {
+    "name": "javassist/compiler/MemberResolver",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/Parser": {
+    "name": "javassist/compiler/Parser",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/TypeChecker": {
+    "name": "javassist/compiler/TypeChecker",
+    "interfaces": [
+      "javassist/bytecode/Opcode",
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/ast/ASTree": {
+    "name": "javassist/compiler/ast/ASTree",
+    "interfaces": [
+      "java/io/Serializable"
+    ]
+  },
+  "javassist/compiler/ast/CastExpr": {
+    "name": "javassist/compiler/ast/CastExpr",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/ast/Declarator": {
+    "name": "javassist/compiler/ast/Declarator",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/ast/Expr": {
+    "name": "javassist/compiler/ast/Expr",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/ast/NewExpr": {
+    "name": "javassist/compiler/ast/NewExpr",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/compiler/ast/Stmnt": {
+    "name": "javassist/compiler/ast/Stmnt",
+    "interfaces": [
+      "javassist/compiler/TokenId"
+    ]
+  },
+  "javassist/convert/Transformer": {
+    "name": "javassist/convert/Transformer",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/expr/Cast$ProceedForCast": {
+    "name": "javassist/expr/Cast$ProceedForCast",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/expr/Expr": {
+    "name": "javassist/expr/Expr",
+    "interfaces": [
+      "javassist/bytecode/Opcode"
+    ]
+  },
+  "javassist/expr/FieldAccess$ProceedForRead": {
+    "name": "javassist/expr/FieldAccess$ProceedForRead",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/expr/FieldAccess$ProceedForWrite": {
+    "name": "javassist/expr/FieldAccess$ProceedForWrite",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/expr/Instanceof$ProceedForInstanceof": {
+    "name": "javassist/expr/Instanceof$ProceedForInstanceof",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/expr/NewArray$ProceedForArray": {
+    "name": "javassist/expr/NewArray$ProceedForArray",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/expr/NewExpr$ProceedForNew": {
+    "name": "javassist/expr/NewExpr$ProceedForNew",
+    "interfaces": [
+      "javassist/compiler/ProceedHandler"
+    ]
+  },
+  "javassist/scopedpool/ScopedClassPoolFactoryImpl": {
+    "name": "javassist/scopedpool/ScopedClassPoolFactoryImpl",
+    "interfaces": [
+      "javassist/scopedpool/ScopedClassPoolFactory"
+    ]
+  },
+  "javassist/scopedpool/ScopedClassPoolRepositoryImpl": {
+    "name": "javassist/scopedpool/ScopedClassPoolRepositoryImpl",
+    "interfaces": [
+      "javassist/scopedpool/ScopedClassPoolRepository"
+    ]
+  },
+  "javassist/scopedpool/SoftValueHashMap": {
+    "name": "javassist/scopedpool/SoftValueHashMap",
+    "interfaces": [
+      "java/util/Map"
+    ]
+  },
+  "javassist/tools/reflect/ClassMetaobject": {
+    "name": "javassist/tools/reflect/ClassMetaobject",
+    "interfaces": [
+      "java/io/Serializable"
+    ]
+  },
+  "javassist/tools/reflect/Metaobject": {
+    "name": "javassist/tools/reflect/Metaobject",
+    "interfaces": [
+      "java/io/Serializable"
+    ]
+  },
+  "javassist/tools/reflect/Reflection": {
+    "name": "javassist/tools/reflect/Reflection",
+    "interfaces": [
+      "javassist/Translator"
+    ]
+  },
+  "javassist/tools/rmi/ObjectImporter": {
+    "name": "javassist/tools/rmi/ObjectImporter",
+    "interfaces": [
+      "java/io/Serializable"
+    ]
+  },
+  "javassist/tools/rmi/RemoteRef": {
+    "name": "javassist/tools/rmi/RemoteRef",
+    "interfaces": [
+      "java/io/Serializable"
+    ]
+  },
+  "javassist/tools/rmi/StubGenerator": {
+    "name": "javassist/tools/rmi/StubGenerator",
+    "interfaces": [
+      "javassist/Translator"
+    ]
+  },
+  "javassist/util/proxy/ProxyFactory$1": {
+    "name": "javassist/util/proxy/ProxyFactory$1",
+    "interfaces": [
+      "javassist/util/proxy/ProxyFactory$ClassLoaderProvider"
+    ]
+  },
+  "javassist/util/proxy/ProxyFactory$2": {
+    "name": "javassist/util/proxy/ProxyFactory$2",
+    "interfaces": [
+      "javassist/util/proxy/ProxyFactory$UniqueName"
+    ]
+  },
+  "javassist/util/proxy/ProxyFactory$3": {
+    "name": "javassist/util/proxy/ProxyFactory$3",
+    "interfaces": [
+      "java/util/Comparator"
+    ]
+  },
+  "javassist/util/proxy/ProxyObject": {
+    "name": "javassist/util/proxy/ProxyObject",
+    "interfaces": [
+      "javassist/util/proxy/Proxy"
+    ]
+  },
+  "javassist/util/proxy/RuntimeSupport$DefaultMethodHandler": {
+    "name": "javassist/util/proxy/RuntimeSupport$DefaultMethodHandler",
+    "interfaces": [
+      "javassist/util/proxy/MethodHandler",
+      "java/io/Serializable"
+    ]
+  },
+  "javassist/util/proxy/SecurityActions$1": {
+    "name": "javassist/util/proxy/SecurityActions$1",
+    "interfaces": [
+      "java/security/PrivilegedAction"
+    ]
+  },
+  "javassist/util/proxy/SecurityActions$2": {
+    "name": "javassist/util/proxy/SecurityActions$2",
+    "interfaces": [
+      "java/security/PrivilegedAction"
+    ]
+  },
+  "javassist/util/proxy/SecurityActions$3": {
+    "name": "javassist/util/proxy/SecurityActions$3",
+    "interfaces": [
+      "java/security/PrivilegedExceptionAction"
+    ]
+  },
+  "javassist/util/proxy/SecurityActions$4": {
+    "name": "javassist/util/proxy/SecurityActions$4",
+    "interfaces": [
+      "java/security/PrivilegedExceptionAction"
+    ]
+  },
+  "javassist/util/proxy/SecurityActions$5": {
+    "name": "javassist/util/proxy/SecurityActions$5",
+    "interfaces": [
+      "java/security/PrivilegedAction"
+    ]
+  },
+  "javassist/util/proxy/SecurityActions$6": {
+    "name": "javassist/util/proxy/SecurityActions$6",
+    "interfaces": [
+      "java/security/PrivilegedExceptionAction"
+    ]
+  },
+  "javassist/util/proxy/SerializedProxy": {
+    "name": "javassist/util/proxy/SerializedProxy",
+    "interfaces": [
+      "java/io/Serializable"
+    ]
+  },
+  "javassist/util/proxy/SerializedProxy$1": {
+    "name": "javassist/util/proxy/SerializedProxy$1",
+    "interfaces": [
+      "java/security/PrivilegedExceptionAction"
+    ]
+  },
+  "org/reflections/ReflectionUtils$1": {
+    "name": "org/reflections/ReflectionUtils$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$10": {
+    "name": "org/reflections/ReflectionUtils$10",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$11": {
+    "name": "org/reflections/ReflectionUtils$11",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$11$1": {
+    "name": "org/reflections/ReflectionUtils$11$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$12": {
+    "name": "org/reflections/ReflectionUtils$12",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$12$1": {
+    "name": "org/reflections/ReflectionUtils$12$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$13": {
+    "name": "org/reflections/ReflectionUtils$13",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$14": {
+    "name": "org/reflections/ReflectionUtils$14",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$15": {
+    "name": "org/reflections/ReflectionUtils$15",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$16": {
+    "name": "org/reflections/ReflectionUtils$16",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$17": {
+    "name": "org/reflections/ReflectionUtils$17",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$18": {
+    "name": "org/reflections/ReflectionUtils$18",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$2": {
+    "name": "org/reflections/ReflectionUtils$2",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$3": {
+    "name": "org/reflections/ReflectionUtils$3",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$4": {
+    "name": "org/reflections/ReflectionUtils$4",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$5": {
+    "name": "org/reflections/ReflectionUtils$5",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$6": {
+    "name": "org/reflections/ReflectionUtils$6",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$7": {
+    "name": "org/reflections/ReflectionUtils$7",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$8": {
+    "name": "org/reflections/ReflectionUtils$8",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/ReflectionUtils$9": {
+    "name": "org/reflections/ReflectionUtils$9",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/Reflections$1": {
+    "name": "org/reflections/Reflections$1",
+    "interfaces": [
+      "java/lang/Runnable"
+    ]
+  },
+  "org/reflections/Reflections$2": {
+    "name": "org/reflections/Reflections$2",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/Reflections$3": {
+    "name": "org/reflections/Reflections$3",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/Store$1": {
+    "name": "org/reflections/Store$1",
+    "interfaces": [
+      "com/google/common/base/Supplier"
+    ]
+  },
+  "org/reflections/Store$IterableChain": {
+    "name": "org/reflections/Store$IterableChain",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/reflections/adapters/JavaReflectionAdapter": {
+    "name": "org/reflections/adapters/JavaReflectionAdapter",
+    "interfaces": [
+      "org/reflections/adapters/MetadataAdapter"
+    ]
+  },
+  "org/reflections/adapters/JavassistAdapter": {
+    "name": "org/reflections/adapters/JavassistAdapter",
+    "interfaces": [
+      "org/reflections/adapters/MetadataAdapter"
+    ]
+  },
+  "org/reflections/scanners/AbstractScanner": {
+    "name": "org/reflections/scanners/AbstractScanner",
+    "interfaces": [
+      "org/reflections/scanners/Scanner"
+    ]
+  },
+  "org/reflections/serializers/JavaCodeSerializer": {
+    "name": "org/reflections/serializers/JavaCodeSerializer",
+    "interfaces": [
+      "org/reflections/serializers/Serializer"
+    ]
+  },
+  "org/reflections/serializers/JavaCodeSerializer$1": {
+    "name": "org/reflections/serializers/JavaCodeSerializer$1",
+    "interfaces": [
+      "com/google/common/base/Supplier"
+    ]
+  },
+  "org/reflections/serializers/JsonSerializer": {
+    "name": "org/reflections/serializers/JsonSerializer",
+    "interfaces": [
+      "org/reflections/serializers/Serializer"
+    ]
+  },
+  "org/reflections/serializers/JsonSerializer$1": {
+    "name": "org/reflections/serializers/JsonSerializer$1",
+    "interfaces": [
+      "com/google/gson/JsonDeserializer"
+    ]
+  },
+  "org/reflections/serializers/JsonSerializer$1$1": {
+    "name": "org/reflections/serializers/JsonSerializer$1$1",
+    "interfaces": [
+      "com/google/common/base/Supplier"
+    ]
+  },
+  "org/reflections/serializers/JsonSerializer$2": {
+    "name": "org/reflections/serializers/JsonSerializer$2",
+    "interfaces": [
+      "com/google/gson/JsonSerializer"
+    ]
+  },
+  "org/reflections/serializers/XmlSerializer": {
+    "name": "org/reflections/serializers/XmlSerializer",
+    "interfaces": [
+      "org/reflections/serializers/Serializer"
+    ]
+  },
+  "org/reflections/util/ConfigurationBuilder": {
+    "name": "org/reflections/util/ConfigurationBuilder",
+    "interfaces": [
+      "org/reflections/Configuration"
+    ]
+  },
+  "org/reflections/util/FilterBuilder": {
+    "name": "org/reflections/util/FilterBuilder",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/util/FilterBuilder$Matcher": {
+    "name": "org/reflections/util/FilterBuilder$Matcher",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/vfs/JarInputDir": {
+    "name": "org/reflections/vfs/JarInputDir",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$Dir"
+    ]
+  },
+  "org/reflections/vfs/JarInputDir$1": {
+    "name": "org/reflections/vfs/JarInputDir$1",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/reflections/vfs/JarInputFile": {
+    "name": "org/reflections/vfs/JarInputFile",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$File"
+    ]
+  },
+  "org/reflections/vfs/SystemDir": {
+    "name": "org/reflections/vfs/SystemDir",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$Dir"
+    ]
+  },
+  "org/reflections/vfs/SystemDir$1": {
+    "name": "org/reflections/vfs/SystemDir$1",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/reflections/vfs/SystemFile": {
+    "name": "org/reflections/vfs/SystemFile",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$File"
+    ]
+  },
+  "org/reflections/vfs/UrlTypeVFS": {
+    "name": "org/reflections/vfs/UrlTypeVFS",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$UrlType"
+    ]
+  },
+  "org/reflections/vfs/UrlTypeVFS$1": {
+    "name": "org/reflections/vfs/UrlTypeVFS$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/vfs/Vfs$1": {
+    "name": "org/reflections/vfs/Vfs$1",
+    "interfaces": [
+      "com/google/common/base/Predicate"
+    ]
+  },
+  "org/reflections/vfs/Vfs$2": {
+    "name": "org/reflections/vfs/Vfs$2",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/reflections/vfs/Vfs$DefaultUrlTypes": {
+    "name": "org/reflections/vfs/Vfs$DefaultUrlTypes",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$UrlType"
+    ]
+  },
+  "org/reflections/vfs/ZipDir": {
+    "name": "org/reflections/vfs/ZipDir",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$Dir"
+    ]
+  },
+  "org/reflections/vfs/ZipDir$1": {
+    "name": "org/reflections/vfs/ZipDir$1",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/reflections/vfs/ZipFile": {
+    "name": "org/reflections/vfs/ZipFile",
+    "interfaces": [
+      "org/reflections/vfs/Vfs$File"
+    ]
+  },
+  "org/spongepowered/asm/bridge/RemapperAdapter": {
+    "name": "org/spongepowered/asm/bridge/RemapperAdapter",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/extensibility/IRemapper",
+      "org/spongepowered/asm/util/ObfuscationUtil$IClassRemapper"
+    ]
+  },
+  "org/spongepowered/asm/launch/MixinTweaker": {
+    "name": "org/spongepowered/asm/launch/MixinTweaker",
+    "interfaces": [
+      "net/minecraft/launchwrapper/ITweaker"
+    ]
+  },
+  "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract": {
+    "name": "org/spongepowered/asm/launch/platform/MixinPlatformAgentAbstract",
+    "interfaces": [
+      "org/spongepowered/asm/launch/platform/IMixinPlatformAgent"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/InsnList$InsnListIterator": {
+    "name": "org/spongepowered/asm/lib/tree/InsnList$InsnListIterator",
+    "interfaces": [
+      "java/util/ListIterator"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/Analyzer": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/Analyzer",
+    "interfaces": [
+      "org/spongepowered/asm/lib/Opcodes"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/BasicInterpreter": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/BasicInterpreter",
+    "interfaces": [
+      "org/spongepowered/asm/lib/Opcodes"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/BasicValue": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/BasicValue",
+    "interfaces": [
+      "org/spongepowered/asm/lib/tree/analysis/Value"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/SmallSet": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/SmallSet",
+    "interfaces": [
+      "java/util/Iterator"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/SourceInterpreter": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/SourceInterpreter",
+    "interfaces": [
+      "org/spongepowered/asm/lib/Opcodes"
+    ]
+  },
+  "org/spongepowered/asm/lib/tree/analysis/SourceValue": {
+    "name": "org/spongepowered/asm/lib/tree/analysis/SourceValue",
+    "interfaces": [
+      "org/spongepowered/asm/lib/tree/analysis/Value"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Debug": {
+    "name": "org/spongepowered/asm/mixin/Debug",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Dynamic": {
+    "name": "org/spongepowered/asm/mixin/Dynamic",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/EnvironmentStateTweaker": {
+    "name": "org/spongepowered/asm/mixin/EnvironmentStateTweaker",
+    "interfaces": [
+      "net/minecraft/launchwrapper/ITweaker"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Final": {
+    "name": "org/spongepowered/asm/mixin/Final",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Implements": {
+    "name": "org/spongepowered/asm/mixin/Implements",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Interface": {
+    "name": "org/spongepowered/asm/mixin/Interface",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Intrinsic": {
+    "name": "org/spongepowered/asm/mixin/Intrinsic",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Mixin": {
+    "name": "org/spongepowered/asm/mixin/Mixin",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/MixinEnvironment": {
+    "name": "org/spongepowered/asm/mixin/MixinEnvironment",
+    "interfaces": [
+      "org/spongepowered/asm/util/ITokenProvider"
+    ]
+  },
+  "org/spongepowered/asm/mixin/MixinEnvironment$TokenProviderWrapper": {
+    "name": "org/spongepowered/asm/mixin/MixinEnvironment$TokenProviderWrapper",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Mutable": {
+    "name": "org/spongepowered/asm/mixin/Mutable",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Overwrite": {
+    "name": "org/spongepowered/asm/mixin/Overwrite",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Pseudo": {
+    "name": "org/spongepowered/asm/mixin/Pseudo",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Shadow": {
+    "name": "org/spongepowered/asm/mixin/Shadow",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/SoftOverride": {
+    "name": "org/spongepowered/asm/mixin/SoftOverride",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/Unique": {
+    "name": "org/spongepowered/asm/mixin/Unique",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/gen/Accessor": {
+    "name": "org/spongepowered/asm/mixin/gen/Accessor",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/gen/Invoker": {
+    "name": "org/spongepowered/asm/mixin/gen/Invoker",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/At": {
+    "name": "org/spongepowered/asm/mixin/injection/At",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Coerce": {
+    "name": "org/spongepowered/asm/mixin/injection/Coerce",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Constant": {
+    "name": "org/spongepowered/asm/mixin/injection/Constant",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Group": {
+    "name": "org/spongepowered/asm/mixin/injection/Group",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Inject": {
+    "name": "org/spongepowered/asm/mixin/injection/Inject",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/InjectionPoint$AtCode": {
+    "name": "org/spongepowered/asm/mixin/injection/InjectionPoint$AtCode",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyArg": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyArg",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyArgs": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyArgs",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyConstant": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyConstant",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/ModifyVariable": {
+    "name": "org/spongepowered/asm/mixin/injection/ModifyVariable",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Redirect": {
+    "name": "org/spongepowered/asm/mixin/injection/Redirect",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Slice": {
+    "name": "org/spongepowered/asm/mixin/injection/Slice",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/Surrogate": {
+    "name": "org/spongepowered/asm/mixin/injection/Surrogate",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/callback/CallbackInfo": {
+    "name": "org/spongepowered/asm/mixin/injection/callback/CallbackInfo",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/callback/Cancellable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/code/ISliceContext": {
+    "name": "org/spongepowered/asm/mixin/injection/code/ISliceContext",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/IInjectionPointContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/code/MethodSlice$InsnListSlice$SliceIterator": {
+    "name": "org/spongepowered/asm/mixin/injection/code/MethodSlice$InsnListSlice$SliceIterator",
+    "interfaces": [
+      "java/util/ListIterator"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/invoke/arg/ArgsClassGenerator": {
+    "name": "org/spongepowered/asm/mixin/injection/invoke/arg/ArgsClassGenerator",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IClassGenerator"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/modify/AfterStoreLocal": {
+    "name": "org/spongepowered/asm/mixin/injection/modify/AfterStoreLocal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/modify/AfterStoreLocal",
+        "value": {
+          "value": "STORE"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/modify/BeforeLoadLocal": {
+    "name": "org/spongepowered/asm/mixin/injection/modify/BeforeLoadLocal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/modify/BeforeLoadLocal",
+        "value": {
+          "value": "LOAD"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/modify/LocalVariableDiscriminator$Context": {
+    "name": "org/spongepowered/asm/mixin/injection/modify/LocalVariableDiscriminator$Context",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IPrettyPrintable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/AfterInvoke": {
+    "name": "org/spongepowered/asm/mixin/injection/points/AfterInvoke",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/AfterInvoke",
+        "value": {
+          "value": "INVOKE_ASSIGN"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeConstant": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeConstant",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeConstant",
+        "value": {
+          "value": "CONSTANT"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeFieldAccess": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeFieldAccess",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeFieldAccess",
+        "value": {
+          "value": "FIELD"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeFinalReturn": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeFinalReturn",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeFinalReturn",
+        "value": {
+          "value": "TAIL"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeInvoke": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeInvoke",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeInvoke",
+        "value": {
+          "value": "INVOKE"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeNew": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeNew",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeNew",
+        "value": {
+          "value": "NEW"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeReturn": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeReturn",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeReturn",
+        "value": {
+          "value": "RETURN"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/BeforeStringInvoke": {
+    "name": "org/spongepowered/asm/mixin/injection/points/BeforeStringInvoke",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/BeforeStringInvoke",
+        "value": {
+          "value": "INVOKE_STRING"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/JumpInsnPoint": {
+    "name": "org/spongepowered/asm/mixin/injection/points/JumpInsnPoint",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/JumpInsnPoint",
+        "value": {
+          "value": "JUMP"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/points/MethodHead": {
+    "name": "org/spongepowered/asm/mixin/injection/points/MethodHead",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/injection/InjectionPoint$AtCode;",
+        "target": "org/spongepowered/asm/mixin/injection/points/MethodHead",
+        "value": {
+          "value": "HEAD"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/struct/InjectionInfo": {
+    "name": "org/spongepowered/asm/mixin/injection/struct/InjectionInfo",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/code/ISliceContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/struct/InjectionNodes$InjectionNode": {
+    "name": "org/spongepowered/asm/mixin/injection/struct/InjectionNodes$InjectionNode",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/injection/struct/Target": {
+    "name": "org/spongepowered/asm/mixin/injection/struct/Target",
+    "interfaces": [
+      "java/lang/Comparable",
+      "java/lang/Iterable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/refmap/ReferenceMapper": {
+    "name": "org/spongepowered/asm/mixin/refmap/ReferenceMapper",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IReferenceMapper",
+      "java/io/Serializable"
+    ]
+  },
+  "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper": {
+    "name": "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IReferenceMapper"
+    ]
+  },
+  "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper$1": {
+    "name": "org/spongepowered/asm/mixin/refmap/RemappingReferenceMapper$1",
+    "interfaces": [
+      "com/google/common/io/LineProcessor"
+    ]
+  },
+  "org/spongepowered/asm/mixin/struct/SpecialMethodInfo": {
+    "name": "org/spongepowered/asm/mixin/struct/SpecialMethodInfo",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/injection/IInjectionPointContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/InnerClassGenerator": {
+    "name": "org/spongepowered/asm/mixin/transformer/InnerClassGenerator",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IClassGenerator"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinConfig": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinConfig",
+    "interfaces": [
+      "java/lang/Comparable",
+      "org/spongepowered/asm/mixin/extensibility/IMixinConfig"
+    ],
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "selector",
+        "value": {
+          "value": "target"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "version",
+        "value": {
+          "value": "minVersion"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "compatibility",
+        "value": {
+          "value": "compatibilityLevel"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "required",
+        "value": {
+          "value": "required"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "priority",
+        "value": {
+          "value": "priority"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinPriority",
+        "value": {
+          "value": "mixinPriority"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinPackage",
+        "value": {
+          "value": "package"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinClasses",
+        "value": {
+          "value": "mixins"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinClassesClient",
+        "value": {
+          "value": "client"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "mixinClassesServer",
+        "value": {
+          "value": "server"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "setSourceFile",
+        "value": {
+          "value": "setSourceFile"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "refMapperConfig",
+        "value": {
+          "value": "refmap"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "verboseLogging",
+        "value": {
+          "value": "verbose"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "pluginClassName",
+        "value": {
+          "value": "plugin"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "injectorOptions",
+        "value": {
+          "value": "injectors"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "overwriteOptions",
+        "value": {
+          "value": "overwrites"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinConfig$InjectorOptions": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinConfig$InjectorOptions",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "defaultRequireValue",
+        "value": {
+          "value": "defaultRequire"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "defaultGroup",
+        "value": {
+          "value": "defaultGroup"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "injectionPoints",
+        "value": {
+          "value": "injectionPoints"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "maxShiftBy",
+        "value": {
+          "value": "maxShiftBy"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinConfig$OverwriteOptions": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinConfig$OverwriteOptions",
+    "annotations": [
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "conformAccessModifiers",
+        "value": {
+          "value": "conformVisibility"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lcom/google/gson/annotations/SerializedName;",
+        "target": "requireOverwriteAnnotations",
+        "value": {
+          "value": "requireAnnotations"
+        }
+      }
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinInfo": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinInfo",
+    "interfaces": [
+      "java/lang/Comparable",
+      "org/spongepowered/asm/mixin/extensibility/IMixinInfo"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinInfo$1": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinInfo$1",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinInfo$2": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinInfo$2",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinPostProcessor": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinPostProcessor",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/MixinConfig$IListener"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinTargetContext": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinTargetContext",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IMixinContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/MixinTransformer$1": {
+    "name": "org/spongepowered/asm/mixin/transformer/MixinTransformer$1",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/MixinConfig$IListener"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/Proxy": {
+    "name": "org/spongepowered/asm/mixin/transformer/Proxy",
+    "interfaces": [
+      "net/minecraft/launchwrapper/IClassTransformer",
+      "org/spongepowered/asm/service/ILegacyClassTransformer"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/TargetClassContext": {
+    "name": "org/spongepowered/asm/mixin/transformer/TargetClassContext",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/ITargetClassContext"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler": {
+    "name": "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IDecompiler",
+      "org/jetbrains/java/decompiler/main/extern/IResultSaver"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler$1": {
+    "name": "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompiler$1",
+    "interfaces": [
+      "org/jetbrains/java/decompiler/main/extern/IBytecodeProvider"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompilerAsync": {
+    "name": "org/spongepowered/asm/mixin/transformer/debug/RuntimeDecompilerAsync",
+    "interfaces": [
+      "java/lang/Runnable",
+      "java/lang/Thread$UncaughtExceptionHandler"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckClass": {
+    "name": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckClass",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IExtension"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckInterfaces": {
+    "name": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionCheckInterfaces",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IExtension"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter": {
+    "name": "org/spongepowered/asm/mixin/transformer/ext/extensions/ExtensionClassExporter",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IExtension"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/meta/MixinInner": {
+    "name": "org/spongepowered/asm/mixin/transformer/meta/MixinInner",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/meta/MixinMerged": {
+    "name": "org/spongepowered/asm/mixin/transformer/meta/MixinMerged",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/mixin/transformer/meta/MixinRenamed": {
+    "name": "org/spongepowered/asm/mixin/transformer/meta/MixinRenamed",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "org/spongepowered/asm/obfuscation/RemapperChain": {
+    "name": "org/spongepowered/asm/obfuscation/RemapperChain",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/extensibility/IRemapper"
+    ]
+  },
+  "org/spongepowered/asm/obfuscation/mapping/common/MappingField": {
+    "name": "org/spongepowered/asm/obfuscation/mapping/common/MappingField",
+    "interfaces": [
+      "org/spongepowered/asm/obfuscation/mapping/IMapping"
+    ]
+  },
+  "org/spongepowered/asm/obfuscation/mapping/common/MappingMethod": {
+    "name": "org/spongepowered/asm/obfuscation/mapping/common/MappingMethod",
+    "interfaces": [
+      "org/spongepowered/asm/obfuscation/mapping/IMapping"
+    ]
+  },
+  "org/spongepowered/asm/service/ILegacyClassTransformer": {
+    "name": "org/spongepowered/asm/service/ILegacyClassTransformer",
+    "interfaces": [
+      "org/spongepowered/asm/service/ITransformer"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/Blackboard": {
+    "name": "org/spongepowered/asm/service/mojang/Blackboard",
+    "interfaces": [
+      "org/spongepowered/asm/service/IGlobalPropertyService"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/LegacyTransformerHandle": {
+    "name": "org/spongepowered/asm/service/mojang/LegacyTransformerHandle",
+    "interfaces": [
+      "org/spongepowered/asm/service/ILegacyClassTransformer"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper": {
+    "name": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapper",
+    "interfaces": [
+      "org/spongepowered/asm/service/IMixinService",
+      "org/spongepowered/asm/service/IClassProvider",
+      "org/spongepowered/asm/service/IClassBytecodeProvider"
+    ]
+  },
+  "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapperBootstrap": {
+    "name": "org/spongepowered/asm/service/mojang/MixinServiceLaunchWrapperBootstrap",
+    "interfaces": [
+      "org/spongepowered/asm/service/IMixinServiceBootstrap"
+    ]
+  },
+  "org/spongepowered/asm/transformers/TreeTransformer": {
+    "name": "org/spongepowered/asm/transformers/TreeTransformer",
+    "interfaces": [
+      "org/spongepowered/asm/service/ILegacyClassTransformer"
+    ]
+  },
+  "org/spongepowered/asm/util/Annotations$1": {
+    "name": "org/spongepowered/asm/util/Annotations$1",
+    "interfaces": [
+      "com/google/common/base/Function"
+    ]
+  },
+  "org/spongepowered/asm/util/ClassSignature$Token": {
+    "name": "org/spongepowered/asm/util/ClassSignature$Token",
+    "interfaces": [
+      "org/spongepowered/asm/util/ClassSignature$IToken"
+    ]
+  },
+  "org/spongepowered/asm/util/ClassSignature$TokenHandle": {
+    "name": "org/spongepowered/asm/util/ClassSignature$TokenHandle",
+    "interfaces": [
+      "org/spongepowered/asm/util/ClassSignature$IToken"
+    ]
+  },
+  "org/spongepowered/asm/util/ClassSignature$TypeVar": {
+    "name": "org/spongepowered/asm/util/ClassSignature$TypeVar",
+    "interfaces": [
+      "java/lang/Comparable"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$HorizontalRule": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$HorizontalRule",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$ISpecialEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$KeyValue": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$KeyValue",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IVariableWidthEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$Row": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$Row",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IVariableWidthEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/PrettyPrinter$Table": {
+    "name": "org/spongepowered/asm/util/PrettyPrinter$Table",
+    "interfaces": [
+      "org/spongepowered/asm/util/PrettyPrinter$IVariableWidthEntry"
+    ]
+  },
+  "org/spongepowered/asm/util/VersionNumber": {
+    "name": "org/spongepowered/asm/util/VersionNumber",
+    "interfaces": [
+      "java/lang/Comparable",
+      "java/io/Serializable"
+    ]
+  },
+  "org/spongepowered/tools/agent/MixinAgent": {
+    "name": "org/spongepowered/tools/agent/MixinAgent",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/transformer/ext/IHotSwap"
+    ]
+  },
+  "org/spongepowered/tools/agent/MixinAgent$Transformer": {
+    "name": "org/spongepowered/tools/agent/MixinAgent$Transformer",
+    "interfaces": [
+      "java/lang/instrument/ClassFileTransformer"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/AnnotatedMixinElementHandlerAccessor": {
+    "name": "org/spongepowered/tools/obfuscation/AnnotatedMixinElementHandlerAccessor",
+    "interfaces": [
+      "org/spongepowered/asm/mixin/refmap/IMixinContext"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/AnnotatedMixins": {
+    "name": "org/spongepowered/tools/obfuscation/AnnotatedMixins",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IMixinAnnotationProcessor",
+      "org/spongepowered/asm/util/ITokenProvider",
+      "org/spongepowered/tools/obfuscation/interfaces/ITypeHandleProvider",
+      "org/spongepowered/tools/obfuscation/interfaces/IJavadocProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/Mappings": {
+    "name": "org/spongepowered/tools/obfuscation/Mappings",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingConsumer"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/Mappings$UniqueMappings": {
+    "name": "org/spongepowered/tools/obfuscation/Mappings$UniqueMappings",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingConsumer"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/MixinValidator": {
+    "name": "org/spongepowered/tools/obfuscation/MixinValidator",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IMixinValidator"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationData": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationData",
+    "interfaces": [
+      "java/lang/Iterable"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationDataProvider": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationDataProvider",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IObfuscationDataProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationEnvironment": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationEnvironment",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IObfuscationEnvironment"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationEnvironment$RemapperProxy": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationEnvironment$RemapperProxy",
+    "interfaces": [
+      "org/spongepowered/asm/util/ObfuscationUtil$IClassRemapper"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ObfuscationManager": {
+    "name": "org/spongepowered/tools/obfuscation/ObfuscationManager",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IObfuscationManager"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/ReferenceManager": {
+    "name": "org/spongepowered/tools/obfuscation/ReferenceManager",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/interfaces/IReferenceManager"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/interfaces/IMixinAnnotationProcessor": {
+    "name": "org/spongepowered/tools/obfuscation/interfaces/IMixinAnnotationProcessor",
+    "interfaces": [
+      "javax/annotation/processing/Messager",
+      "org/spongepowered/tools/obfuscation/interfaces/IOptionProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mapping/common/MappingProvider": {
+    "name": "org/spongepowered/tools/obfuscation/mapping/common/MappingProvider",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingProvider"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mapping/common/MappingWriter": {
+    "name": "org/spongepowered/tools/obfuscation/mapping/common/MappingWriter",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/mapping/IMappingWriter"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mapping/mcp/MappingProviderSrg$1": {
+    "name": "org/spongepowered/tools/obfuscation/mapping/mcp/MappingProviderSrg$1",
+    "interfaces": [
+      "com/google/common/io/LineProcessor"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mcp/ObfuscationServiceMCP": {
+    "name": "org/spongepowered/tools/obfuscation/mcp/ObfuscationServiceMCP",
+    "interfaces": [
+      "org/spongepowered/tools/obfuscation/service/IObfuscationService"
+    ]
+  },
+  "org/spongepowered/tools/obfuscation/mirror/TypeReference": {
+    "name": "org/spongepowered/tools/obfuscation/mirror/TypeReference",
+    "interfaces": [
+      "java/io/Serializable",
+      "java/lang/Comparable"
+    ]
+  },
+  "wtf/moneymod/client/api/forge/EventHandler": {
+    "name": "wtf/moneymod/client/api/forge/EventHandler",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onInput(Lnet/minecraftforge/fml/common/gameevent/InputEvent$KeyInputEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onClientChat(Lnet/minecraftforge/client/event/ClientChatEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRenderUpdate(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/api/forge/Mod": {
+    "name": "wtf/moneymod/client/api/forge/Mod",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "wtf/moneymod/client/api/forge/Mod",
+        "values": {
+          "modid": {
+            "value": "moneymod"
+          },
+          "name": {
+            "value": "Money Mod"
+          },
+          "version": {
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/api/management/impl/CommandManagement": {
+    "name": "wtf/moneymod/client/api/management/impl/CommandManagement",
+    "interfaces": [
+      "wtf/moneymod/client/api/management/IManager"
+    ]
+  },
+  "wtf/moneymod/client/api/management/impl/ConfigManager": {
+    "name": "wtf/moneymod/client/api/management/impl/ConfigManager",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/api/management/impl/FriendManagement": {
+    "name": "wtf/moneymod/client/api/management/impl/FriendManagement",
+    "interfaces": [
+      "wtf/moneymod/client/api/management/IManager"
+    ]
+  },
+  "wtf/moneymod/client/api/management/impl/ModuleManagement": {
+    "name": "wtf/moneymod/client/api/management/impl/ModuleManagement",
+    "interfaces": [
+      "wtf/moneymod/client/api/management/IManager"
+    ]
+  },
+  "wtf/moneymod/client/api/management/impl/NotificationManagement": {
+    "name": "wtf/moneymod/client/api/management/impl/NotificationManagement",
+    "interfaces": [
+      "wtf/moneymod/client/api/management/IManager"
+    ]
+  },
+  "wtf/moneymod/client/api/management/impl/PacketManagement": {
+    "name": "wtf/moneymod/client/api/management/impl/PacketManagement",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ],
+    "annotations": [
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/api/management/impl/RotationManagement": {
+    "name": "wtf/moneymod/client/api/management/impl/RotationManagement",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/api/setting/annotatable/Bounds": {
+    "name": "wtf/moneymod/client/api/setting/annotatable/Bounds",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "wtf/moneymod/client/api/setting/annotatable/Parent": {
+    "name": "wtf/moneymod/client/api/setting/annotatable/Parent",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "wtf/moneymod/client/api/setting/annotatable/Value": {
+    "name": "wtf/moneymod/client/api/setting/annotatable/Value",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "wtf/moneymod/client/impl/command/Command": {
+    "name": "wtf/moneymod/client/impl/command/Command",
+    "interfaces": [
+      "wtf/moneymod/client/impl/command/ICommand"
+    ]
+  },
+  "wtf/moneymod/client/impl/module/Module": {
+    "name": "wtf/moneymod/client/impl/module/Module",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/module/Module$Register": {
+    "name": "wtf/moneymod/client/impl/module/Module$Register",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/Aura": {
+    "name": "wtf/moneymod/client/impl/module/combat/Aura",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/Aura",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "Aura"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Mode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "range",
+        "value": {
+          "value": "Range"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "range",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "6.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "render",
+        "value": {
+          "value": "Render"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "color",
+        "value": {
+          "value": "Color"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "Render3D(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/AutoCrystal": {
+    "name": "wtf/moneymod/client/impl/module/combat/AutoCrystal",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/AutoCrystal",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "AutoCrystal"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "place",
+        "value": {
+          "value": "Place"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "hit",
+        "value": {
+          "value": "Break"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "logic",
+        "value": {
+          "value": "Logic"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "targetRange",
+        "value": {
+          "value": "Target Range"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "targetRange",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "16.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "placeRange",
+        "value": {
+          "value": "Place Range "
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "placeRange",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "6.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "breakRange",
+        "value": {
+          "value": "Break Range "
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "breakRange",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "6.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "wallRange",
+        "value": {
+          "value": "Wall Range"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "wallRange",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "6.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "breakDelay",
+        "value": {
+          "value": "Break Delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "breakDelay",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "200.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "placeDelay",
+        "value": {
+          "value": "Place Delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "placeDelay",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "200.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "boostdelay",
+        "value": {
+          "value": "BoostDelay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "boostdelay",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "200.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mindmg",
+        "value": {
+          "value": "MinDamage"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "mindmg",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "36.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "maxselfdamage",
+        "value": {
+          "value": "MaxSelfDamage"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "maxselfdamage",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "36.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "faceplacehp",
+        "value": {
+          "value": "FacePlaceDamage"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "faceplacehp",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "36.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "armorscale",
+        "value": {
+          "value": "ArmorScale"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "armorscale",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "100.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "tickexisted",
+        "value": {
+          "value": "TickExisted"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "tickexisted",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "20.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "boost",
+        "value": {
+          "value": "Predict"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "rotateons",
+        "value": {
+          "value": "Rotate"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "secondCheck",
+        "value": {
+          "value": "Second"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "swap",
+        "value": {
+          "value": "Swap"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "color",
+        "value": {
+          "value": "Color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packetEventReceive"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packetEventSend"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/AutoTotem": {
+    "name": "wtf/moneymod/client/impl/module/combat/AutoTotem",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/AutoTotem",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "AutoTotem"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "health",
+        "value": {
+          "value": "Health"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "health",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "36.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Item"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "rightClickGapple",
+        "value": {
+          "value": "Right Click Gapple"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/AutoTrap": {
+    "name": "wtf/moneymod/client/impl/module/combat/AutoTrap",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/AutoTrap",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "AutoTrap"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Mode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "bpt",
+        "value": {
+          "value": "BPT"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "bpt",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "20.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "delay",
+        "value": {
+          "value": "Delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "delay",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "250.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "range",
+        "value": {
+          "value": "Range"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "range",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "8.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "disableRange",
+        "value": {
+          "value": "Disable Range"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "disableRange",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "12.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "retry",
+        "value": {
+          "value": "Retry"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "help",
+        "value": {
+          "value": "Help"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "disable",
+        "value": {
+          "value": "Disable"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "antiStep",
+        "value": {
+          "value": "Anti Step"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "render",
+        "value": {
+          "value": "Render"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onConnect(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender3D(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/Criticals": {
+    "name": "wtf/moneymod/client/impl/module/combat/Criticals",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/Criticals",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "Criticals"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "onlyKillaura",
+        "value": {
+          "value": "Only KA"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "strict",
+        "value": {
+          "value": "Strict"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packeEventSend"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/FeetPlace": {
+    "name": "wtf/moneymod/client/impl/module/combat/FeetPlace",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/FeetPlace",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "FeetPlace"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "delay",
+        "value": {
+          "value": "Delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "delay",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "250.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "bps",
+        "value": {
+          "value": "BPS"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "bps",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "20.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "retry",
+        "value": {
+          "value": "Retry"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "retries",
+        "value": {
+          "value": "Retries"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "retries",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "25.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "cleaner",
+        "value": {
+          "value": "Cleaner"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "help",
+        "value": {
+          "value": "Help"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "jumpDisable",
+        "value": {
+          "value": "Jump Disable"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "disable",
+        "value": {
+          "value": "Disable"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "center",
+        "value": {
+          "value": "AutoCenter"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/Scout": {
+    "name": "wtf/moneymod/client/impl/module/combat/Scout",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/Scout",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "Scout"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "time",
+        "value": {
+          "value": "Time"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "time",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "8.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "spoof",
+        "value": {
+          "value": "Spoof"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "spoof",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "12.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "render",
+        "value": {
+          "value": "Render"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "autoFire",
+        "value": {
+          "value": "AutoFire"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packeEventSend"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender2D(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Text;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/SelfFill": {
+    "name": "wtf/moneymod/client/impl/module/combat/SelfFill",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/SelfFill",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "SelfFill"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "height",
+        "value": {
+          "value": "Height"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "height",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "8.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "-8.0"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/combat/SelfFillBypass": {
+    "name": "wtf/moneymod/client/impl/module/combat/SelfFillBypass",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/combat/SelfFillBypass",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/COMBAT"
+          },
+          "label": {
+            "value": "BurrowBypass"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Bypass Method"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "ticks",
+        "value": {
+          "value": "Ticks"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "ticks",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "100.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "10.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "toggleDelays",
+        "value": {
+          "value": "Toggle Delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "toggleDelays",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "60.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "10.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "oneDelays",
+        "value": {
+          "value": "One Delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "oneDelays",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "60.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "10.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "placeDelay",
+        "value": {
+          "value": "Second Delay"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "placeDelay",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "60.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "10.0"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/global/ClickGui": {
+    "name": "wtf/moneymod/client/impl/module/global/ClickGui",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/global/ClickGui",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/GLOBAL"
+          },
+          "key": {
+            "type": "INT",
+            "value": "210"
+          },
+          "label": {
+            "value": "ClickGui"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "theme",
+        "value": {
+          "value": "Theme"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "desc",
+        "value": {
+          "value": "Descriptions"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "color",
+        "value": {
+          "value": "Color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "blur",
+        "value": {
+          "value": "Blur"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "bounding",
+        "value": {
+          "value": "Bounding"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/global/Global": {
+    "name": "wtf/moneymod/client/impl/module/global/Global",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/global/Global",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/GLOBAL"
+          },
+          "label": {
+            "value": "Globals"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "chatAnim",
+        "value": {
+          "value": "Chat Animation"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/global/Notifications": {
+    "name": "wtf/moneymod/client/impl/module/global/Notifications",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/global/Notifications",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/GLOBAL"
+          },
+          "label": {
+            "value": "Notifications"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "eventListener"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/misc/AutoGG": {
+    "name": "wtf/moneymod/client/impl/module/misc/AutoGG",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/misc/AutoGG",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "AutoGG"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Logic"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/misc/ChorusHelper": {
+    "name": "wtf/moneymod/client/impl/module/misc/ChorusHelper",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/misc/ChorusHelper",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MISC"
+          },
+          "label": {
+            "value": "ChorusHelper"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "render",
+        "value": {
+          "value": "Render"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "color",
+        "value": {
+          "value": "Color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packeEventSend"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packeEventReceive"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "finishEating(Lnet/minecraftforge/event/entity/living/LivingEntityUseItemEvent$Finish;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/misc/ExpTweaks": {
+    "name": "wtf/moneymod/client/impl/module/misc/ExpTweaks",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/misc/ExpTweaks",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MISC"
+          },
+          "label": {
+            "value": "ExpTweaks"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "silent",
+        "value": {
+          "value": "Silent"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/misc/MiddleClick": {
+    "name": "wtf/moneymod/client/impl/module/misc/MiddleClick",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/misc/MiddleClick",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MISC"
+          },
+          "label": {
+            "value": "MiddleClick"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Mode"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/misc/Player": {
+    "name": "wtf/moneymod/client/impl/module/misc/Player",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/misc/Player",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MISC"
+          },
+          "exception": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "label": {
+            "value": "Player"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onEvent(Lnet/minecraftforge/fml/common/network/FMLNetworkEvent$ClientDisconnectionFromServerEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/movement/FastSwim": {
+    "name": "wtf/moneymod/client/impl/module/movement/FastSwim",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/movement/FastSwim",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "FastSwim"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/movement/PhaseWalk": {
+    "name": "wtf/moneymod/client/impl/module/movement/PhaseWalk",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/movement/PhaseWalk",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "PhaseWalk"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "attempts",
+        "value": {
+          "value": "Attempts"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "attempts",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "10.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "speed",
+        "value": {
+          "value": "Speed"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "speed",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "10.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packeEventSend"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "onMove"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/movement/ReverseStep": {
+    "name": "wtf/moneymod/client/impl/module/movement/ReverseStep",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/movement/ReverseStep",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "ReverseStep"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/movement/Speed": {
+    "name": "wtf/moneymod/client/impl/module/movement/Speed",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/movement/Speed",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "Speed"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Mode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "speed",
+        "value": {
+          "value": "Vanlla Speed"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "speed",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "10.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "timer",
+        "value": {
+          "value": "Timer"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "autoSprint",
+        "value": {
+          "value": "AutoSprint"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "water",
+        "value": {
+          "value": "Water"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "onGroundStrict",
+        "value": {
+          "value": "OnGround Strict"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "receiveListener"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "sendListener"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "eventListener"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "moveListener"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/movement/Sprint": {
+    "name": "wtf/moneymod/client/impl/module/movement/Sprint",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/movement/Sprint",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "Sprint"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/movement/Step": {
+    "name": "wtf/moneymod/client/impl/module/movement/Step",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/movement/Step",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "Step"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "height",
+        "value": {
+          "value": "Height"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "height",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "4.0"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/movement/Warp": {
+    "name": "wtf/moneymod/client/impl/module/movement/Warp",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/movement/Warp",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "Warp"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "time",
+        "value": {
+          "value": "Time"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "time",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "16.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "tick",
+        "value": {
+          "value": "Tick"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "tick",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "8.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Mode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "step",
+        "value": {
+          "value": "Step"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/player/AutoLog": {
+    "name": "wtf/moneymod/client/impl/module/player/AutoLog",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/player/AutoLog",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/PLAYER"
+          },
+          "label": {
+            "value": "AutoLog"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "hpLog",
+        "value": {
+          "value": "Health"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "hpLog",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "36.0"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/player/AutoRespawn": {
+    "name": "wtf/moneymod/client/impl/module/player/AutoRespawn",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/player/AutoRespawn",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/PLAYER"
+          },
+          "label": {
+            "value": "AutoRespawn"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "deathcoords",
+        "value": {
+          "value": "DeathCoords"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/player/Blink": {
+    "name": "wtf/moneymod/client/impl/module/player/Blink",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/player/Blink",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/PLAYER"
+          },
+          "label": {
+            "value": "Blink"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Mode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "tick",
+        "value": {
+          "value": "Ticks"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "tick",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "32.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packetEventSend"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/player/SpeedMine": {
+    "name": "wtf/moneymod/client/impl/module/player/SpeedMine",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/player/SpeedMine",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/PLAYER"
+          },
+          "label": {
+            "value": "SpeedMine"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mode",
+        "value": {
+          "value": "Renderer"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "render",
+        "value": {
+          "value": "Render"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "silent",
+        "value": {
+          "value": "Silent"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "instant",
+        "value": {
+          "value": "Instant Rebreak"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "range",
+        "value": {
+          "value": "Range"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "range",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "30.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "4.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "spam",
+        "value": {
+          "value": "Packet Spam"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "spam",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "10.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "moveEventListener"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "damageBlockEvent"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/player/Velocity": {
+    "name": "wtf/moneymod/client/impl/module/player/Velocity",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/player/Velocity",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/PLAYER"
+          },
+          "label": {
+            "value": "Velocity"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packetEventReceive"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/render/Changer": {
+    "name": "wtf/moneymod/client/impl/module/render/Changer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/render/Changer",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "Changer"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "fps",
+        "value": {
+          "value": "Fps"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "fpsValue",
+        "value": {
+          "value": "Fps Value"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "fpsValue",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "1000.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "5.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "fov",
+        "value": {
+          "value": "Fov"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "fovValue",
+        "value": {
+          "value": "Fov Value"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "fovValue",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "169.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "5.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "gamma",
+        "value": {
+          "value": "Gamma"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "gammaValue",
+        "value": {
+          "value": "Gamma Value"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "gammaValue",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "250.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "5.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "time",
+        "value": {
+          "value": "Time"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "timeValue",
+        "value": {
+          "value": "Time Value"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "timeValue",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "24.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "5.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packetEventReceive"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/render/ESP": {
+    "name": "wtf/moneymod/client/impl/module/render/ESP",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/render/ESP",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/RENDER"
+          },
+          "exception": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "label": {
+            "value": "ESP"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "players",
+        "value": {
+          "value": "Players"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "crystals",
+        "value": {
+          "value": "Crystals"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "shaders",
+        "value": {
+          "value": "Shaders"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "shader",
+        "value": {
+          "value": "Shader"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "color",
+        "value": {
+          "value": "Color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "chorusPredict",
+        "value": {
+          "value": "ChorusPredict"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "delay",
+        "value": {
+          "value": "Delay (Sec)"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "delay",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "32.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "packetEventReceive"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/eventhandler/listener/Handler;",
+        "target": "eventListener"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender2d(Lnet/minecraftforge/client/event/RenderGameOverlayEvent$Pre;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/render/NameTags": {
+    "name": "wtf/moneymod/client/impl/module/render/NameTags",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/render/NameTags",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/RENDER"
+          },
+          "label": {
+            "value": "NameTags"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "sizeNameTags",
+        "value": {
+          "value": "Size"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "sizeNameTags",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "1.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "0.1"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "range",
+        "value": {
+          "value": "Range"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "range",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "300.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "80.0"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "thickness",
+        "value": {
+          "value": "Thickness"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Bounds;",
+        "target": "thickness",
+        "values": {
+          "max": {
+            "type": "FLOAT",
+            "value": "3.0"
+          },
+          "min": {
+            "type": "FLOAT",
+            "value": "0.1"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "fillColor",
+        "value": {
+          "value": "Fill Color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "outlineColor",
+        "value": {
+          "value": "Outline Color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "textColor",
+        "value": {
+          "value": "Text Color"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "fill",
+        "value": {
+          "value": "Fill"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "outline",
+        "value": {
+          "value": "Outline"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "self",
+        "value": {
+          "value": "Self"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "name",
+        "value": {
+          "value": "Name"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "friend",
+        "value": {
+          "value": "Friend"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "ping",
+        "value": {
+          "value": "Ping"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "health",
+        "value": {
+          "value": "Health"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "healthcolor",
+        "value": {
+          "value": "HealthColor"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "gamemode",
+        "value": {
+          "value": "Gamemode"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "totems",
+        "value": {
+          "value": "Totem"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "items",
+        "value": {
+          "value": "Items"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "mainhand",
+        "value": {
+          "value": "MainHand"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "offhand",
+        "value": {
+          "value": "Offhand"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "armor",
+        "value": {
+          "value": "Armor"
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "armorDura",
+        "value": {
+          "value": "Armor Dura"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$ClientTickEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "onRender3D(Lnet/minecraftforge/client/event/RenderWorldLastEvent;)V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/render/NoInterp": {
+    "name": "wtf/moneymod/client/impl/module/render/NoInterp",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/render/NoInterp",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/RENDER"
+          },
+          "label": {
+            "value": "NoInterp"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/module/render/Swing": {
+    "name": "wtf/moneymod/client/impl/module/render/Swing",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lwtf/moneymod/client/impl/module/Module$Register;",
+        "target": "wtf/moneymod/client/impl/module/render/Swing",
+        "values": {
+          "cat": {
+            "type": "ENUM",
+            "value": "Lwtf/moneymod/client/impl/module/Module$Category;/MOVEMENT"
+          },
+          "label": {
+            "value": "Swing"
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lwtf/moneymod/client/api/setting/annotatable/Value;",
+        "target": "offhand",
+        "value": {
+          "value": "Offhand"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/impl/ui/click/Component": {
+    "name": "wtf/moneymod/client/impl/ui/click/Component",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/ui/click/Description": {
+    "name": "wtf/moneymod/client/impl/ui/click/Description",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/ui/click/Panel": {
+    "name": "wtf/moneymod/client/impl/ui/click/Panel",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/ui/click/theme/AbstractTheme": {
+    "name": "wtf/moneymod/client/impl/ui/click/theme/AbstractTheme",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/utility/impl/player/ItemUtil": {
+    "name": "wtf/moneymod/client/impl/utility/impl/player/ItemUtil",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/utility/impl/player/ToolUtil": {
+    "name": "wtf/moneymod/client/impl/utility/impl/player/ToolUtil",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/utility/impl/render/Renderer3D": {
+    "name": "wtf/moneymod/client/impl/utility/impl/render/Renderer3D",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/utility/impl/shader/FramebufferShader": {
+    "name": "wtf/moneymod/client/impl/utility/impl/shader/FramebufferShader",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/utility/impl/world/BlockUtil": {
+    "name": "wtf/moneymod/client/impl/utility/impl/world/BlockUtil",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/utility/impl/world/ChatUtil": {
+    "name": "wtf/moneymod/client/impl/utility/impl/world/ChatUtil",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/impl/utility/impl/world/EntityUtil": {
+    "name": "wtf/moneymod/client/impl/utility/impl/world/EntityUtil",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ]
+  },
+  "wtf/moneymod/client/mixin/Loader": {
+    "name": "wtf/moneymod/client/mixin/Loader",
+    "interfaces": [
+      "net/minecraftforge/fml/relauncher/IFMLLoadingPlugin"
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinEntity": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinEntity",
+    "interfaces": [
+      "wtf/moneymod/client/mixin/accessors/AccessorEntity"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinEntity",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/entity/Entity;"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_70134_J"
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinEntityOtherPlayerMP": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinEntityOtherPlayerMP",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinEntityOtherPlayerMP",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/entity/EntityOtherPlayerMP;"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_71184_b"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_71185_c"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_71182_d"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_71183_e"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_71180_f"
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_71181_g"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/Overwrite;",
+        "target": "func_70636_d()V"
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinEntityPlayerSP": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinEntityPlayerSP",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinEntityPlayerSP",
+        "values": {
+          "priority": {
+            "type": "INT",
+            "value": "9999"
+          },
+          "value": {
+            "type": "CLASS",
+            "values": [
+              "Lnet/minecraft/client/entity/EntityPlayerSP;"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 30,
+        "values": {
+          "target": {
+            "value": "Lnet/minecraft/client/entity/AbstractClientPlayer;move(Lnet/minecraft/entity/MoverType;DDD)V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Redirect;",
+        "target": "move(Lnet/minecraft/client/entity/AbstractClientPlayer;Lnet/minecraft/entity/MoverType;DDD)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "30"
+          },
+          "method": {
+            "values": [
+              "move"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 31,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "pre(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "31"
+            ]
+          },
+          "method": {
+            "values": [
+              "onUpdateWalkingPlayer"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 32,
+        "value": {
+          "value": "RETURN"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "post(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "32"
+            ]
+          },
+          "method": {
+            "values": [
+              "onUpdateWalkingPlayer"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinEntityRenderer": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinEntityRenderer",
+    "interfaces": [
+      "wtf/moneymod/client/mixin/accessors/IEntityRenderer"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinEntityRenderer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/EntityRenderer;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "func_78479_a(FI)V"
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 34,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "drawNameplate(Lnet/minecraft/client/gui/FontRenderer;Ljava/lang/String;FFFIFFZZLorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "34"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "drawNameplate"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinGuiNewChat": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinGuiNewChat",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinGuiNewChat",
+        "values": {
+          "priority": {
+            "type": "INT",
+            "value": "9999"
+          },
+          "value": {
+            "type": "CLASS",
+            "values": [
+              "Lnet/minecraft/client/gui/GuiNewChat;"
+            ]
+          }
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_146251_k"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "func_146244_h()F"
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 18,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "modifyChatRendering(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "18"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "drawChat"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 19,
+        "values": {
+          "ordinal": {
+            "type": "INT",
+            "value": "0"
+          },
+          "shift": {
+            "type": "ENUM",
+            "value": "Lorg/spongepowered/asm/mixin/injection/At$Shift;/AFTER"
+          },
+          "target": {
+            "value": "Lnet/minecraft/client/renderer/GlStateManager;pushMatrix()V"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "translate(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "19"
+            ]
+          },
+          "method": {
+            "values": [
+              "drawChat"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 20,
+        "values": {
+          "ordinal": {
+            "type": "INT",
+            "value": "0"
+          },
+          "remap": {
+            "type": "BOOL",
+            "value": "false"
+          },
+          "target": {
+            "value": "Ljava/util/List;get(I)Ljava/lang/Object;"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/ModifyArg;",
+        "target": "getLineBeingDrawn(I)I",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "20"
+          },
+          "index": {
+            "type": "INT",
+            "value": "0"
+          },
+          "method": {
+            "values": [
+              "drawChat"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 21,
+        "values": {
+          "target": {
+            "value": "Lnet/minecraft/client/gui/FontRenderer;drawStringWithShadow(Ljava/lang/String;FFI)I"
+          },
+          "value": {
+            "value": "INVOKE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/ModifyArg;",
+        "target": "modifyTextOpacity(I)I",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "21"
+          },
+          "index": {
+            "type": "INT",
+            "value": "3"
+          },
+          "method": {
+            "values": [
+              "drawChat"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 22,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "resetPercentage(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "22"
+            ]
+          },
+          "method": {
+            "values": [
+              "printChatMessageWithOptionalDeletion"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 23,
+        "value": {
+          "value": "STORE"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/ModifyVariable;",
+        "target": "setNewLines(Ljava/util/List;)Ljava/util/List;",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "23"
+          },
+          "method": {
+            "values": [
+              "setChatLine"
+            ]
+          },
+          "ordinal": {
+            "type": "INT",
+            "value": "0"
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 24,
+        "values": {
+          "ordinal": {
+            "type": "INT",
+            "value": "0"
+          },
+          "value": {
+            "value": "STORE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/ModifyVariable;",
+        "target": "modifyX(I)I",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "24"
+          },
+          "method": {
+            "values": [
+              "getChatComponent"
+            ]
+          },
+          "ordinal": {
+            "type": "INT",
+            "value": "3"
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 25,
+        "values": {
+          "ordinal": {
+            "type": "INT",
+            "value": "0"
+          },
+          "value": {
+            "value": "STORE"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/ModifyVariable;",
+        "target": "modifyY(I)I",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "value": "25"
+          },
+          "method": {
+            "values": [
+              "getChatComponent"
+            ]
+          },
+          "ordinal": {
+            "type": "INT",
+            "value": "4"
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinMinecraft": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinMinecraft",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinMinecraft",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/Minecraft;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 33,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "shutdown(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "33"
+            ]
+          },
+          "method": {
+            "values": [
+              "shutdown()V"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinNetworkManager": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinNetworkManager",
+    "interfaces": [
+      "wtf/moneymod/client/impl/utility/Globals"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinNetworkManager",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/NetworkManager;"
+          ]
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 26,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "receive(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "26"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "channelRead0"
+            ]
+          }
+        }
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 27,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "send(Lnet/minecraft/network/Packet;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "27"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "sendPacket(Lnet/minecraft/network/Packet;)V"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinPlayerControllerMP": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinPlayerControllerMP",
+    "interfaces": [
+      "wtf/moneymod/client/mixin/accessors/IPlayerControllerMP",
+      "wtf/moneymod/client/impl/utility/Globals"
+    ],
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinPlayerControllerMP",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/multiplayer/PlayerControllerMP;"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_78781_i"
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 28,
+        "value": {
+          "value": "HEAD"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "clickBlock(Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "28"
+            ]
+          },
+          "cancellable": {
+            "type": "BOOL",
+            "value": "true"
+          },
+          "method": {
+            "values": [
+              "clickBlock"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/MixinTimer": {
+    "name": "wtf/moneymod/client/mixin/mixins/MixinTimer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/MixinTimer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/util/Timer;"
+          ]
+        }
+      },
+      {
+        "type": "FIELD",
+        "name": "Lorg/spongepowered/asm/mixin/Shadow;",
+        "target": "field_194148_c"
+      },
+      {
+        "type": "SUBTYPE",
+        "name": "Lorg/spongepowered/asm/mixin/injection/At;",
+        "id": 29,
+        "values": {
+          "ordinal": {
+            "type": "INT",
+            "value": "1"
+          },
+          "target": {
+            "value": "net/minecraft/util/Timer.elapsedPartialTicks:F"
+          },
+          "value": {
+            "value": "FIELD"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/injection/Inject;",
+        "target": "updateTimer(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V",
+        "values": {
+          "at": {
+            "type": "ANNOTATION",
+            "values": [
+              "29"
+            ]
+          },
+          "method": {
+            "values": [
+              "updateTimer"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketPlayer": {
+    "name": "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketPlayer",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketPlayer",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/client/CPacketPlayer;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setX(D)V",
+        "value": {
+          "value": "x"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setY(D)V",
+        "value": {
+          "value": "y"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setZ(D)V",
+        "value": {
+          "value": "z"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setYaw(F)V",
+        "value": {
+          "value": "yaw"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setPitch(F)V",
+        "value": {
+          "value": "pitch"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setOnGround(Z)V",
+        "value": {
+          "value": "onGround"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketUseEntity": {
+    "name": "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketUseEntity",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/ducks/AccessorCPacketUseEntity",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/network/play/client/CPacketUseEntity;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setEntityId(I)V",
+        "value": {
+          "value": "entityId"
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setAction(Lnet/minecraft/network/play/client/CPacketUseEntity$Action;)V",
+        "value": {
+          "value": "action"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/ducks/AccessorRenderManager": {
+    "name": "wtf/moneymod/client/mixin/mixins/ducks/AccessorRenderManager",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/ducks/AccessorRenderManager",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/renderer/entity/RenderManager;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "getRenderPosX()D"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "getRenderPosY()D"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "getRenderPosZ()D"
+      }
+    ]
+  },
+  "wtf/moneymod/client/mixin/mixins/ducks/IMinecraft": {
+    "name": "wtf/moneymod/client/mixin/mixins/ducks/IMinecraft",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lorg/spongepowered/asm/mixin/Mixin;",
+        "target": "wtf/moneymod/client/mixin/mixins/ducks/IMinecraft",
+        "value": {
+          "type": "CLASS",
+          "values": [
+            "Lnet/minecraft/client/Minecraft;"
+          ]
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lorg/spongepowered/asm/mixin/gen/Accessor;",
+        "target": "setRightClickDelayTimer(I)V",
+        "value": {
+          "value": "rightClickDelayTimer"
+        }
+      }
+    ]
+  },
+  "wtf/moneymod/eventhandler/EventBus": {
+    "name": "wtf/moneymod/eventhandler/EventBus",
+    "interfaces": [
+      "wtf/moneymod/eventhandler/IEventBus"
+    ]
+  },
+  "wtf/moneymod/eventhandler/listener/Handler": {
+    "name": "wtf/moneymod/eventhandler/listener/Handler",
+    "interfaces": [
+      "java/lang/annotation/Annotation"
+    ]
+  }
+}
